@@ -23,6 +23,9 @@ const config = {
         sans: ["var(--font-sans)", ...fontFamily.sans],
       },
       colors: {
+        tertiary: "hsl(232, 58%, 21%)",
+        "primary-subtitle": "hsl(0, 0%, 41%)",
+        "secondary-title": "hsl(0, 0%, 19%)",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

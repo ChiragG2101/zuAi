@@ -54,8 +54,6 @@ const LoginForm = () => {
         return;
       }
 
-      console.log(res);
-
       router.replace("/");
     } catch (error) {
       console.log(error);
